@@ -1,0 +1,125 @@
+@import './normalize.css';
+@import './utility.css';
+@import './component.css';
+@import './default-theme.css';
+
+
+body {
+	overflow: hidden;
+	background: #E9EBEE;
+	color: #4b4f56;
+}
+
+.header{
+	height: 60px;
+	line-height: 60px;
+	background-color: #4267B3;
+	color: #FFF;
+	padding: 0 20px;
+}
+
+.body {
+	height: calc( 100vh - 60px);
+	padding: 0;
+	font-size: 14px;
+}
+
+.body .sidebar {
+	height: 100%;
+}
+
+.body .sidebar.left-sidebar{
+	
+}
+
+.body .sidebar.right-sidebar{
+	padding-top: 0;
+	padding-right: 0;	
+}
+
+.body .main{
+	height: 100%;	
+}
+
+.body .main .user-post-form {
+	padding: 10px 25px;
+}
+
+.body .main .user-post-form textarea {
+	width: 100%;
+	padding: 5px;
+	resize: none;
+	border: none;
+}
+
+.body .main .user-post-form textarea:focus {
+	outline: rgba(66, 103, 180, 0.6) auto 0.1px;
+}
+
+.body .main .user-post-form hr {
+	background: #c1c1c1;
+	height: 1px;
+	padding: 0px;
+	margin: 5px 0 10px 0;
+}
+.footer{
+	
+}
+
+.profile-owner{
+	
+}
+.profile-owner .display-pic{
+	display: inline-block;
+	border-radius: 50%;
+	border: 1px solid #dddfe2;
+	background: #E9EBEE;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.chat-list {
+    float: right;
+    width: 100%;
+    height: 100%;
+}
+
+.chat-list ul {
+    list-style-type: none;
+    width: 100%;
+    height: 100%;
+		overflow-x: hidden;
+}
+
+.chat-list li {
+    width: 100%;
+    display: block;
+   	padding: 10px 15px;
+		clear: both;
+}
+
+.chat-list li .link {
+	display: inline-block;
+}
+
+.chat-list .display-pic {
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid #dddfe2;
+    background: #FFF;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.chat-list .chat-name {
+    padding-left: 10px;
+}
+
+.chat-list .online {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #21ec21;
+	margin: 0 10px;
+}

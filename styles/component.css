@@ -1,0 +1,116 @@
+/* Card Styles */
+.card{
+	background: #FFF;	
+	border: 1px solid #dddfe2;
+	margin-bottom: 10px;
+}
+
+.card:hover {
+	box-shadow: 0 0 6px #dddfe2;			
+}
+.card.small-card {
+	padding: 10px;
+	border-radius: 2px;
+	background: transparent;
+	border: none;
+}
+
+.card.small-card.active-card,
+.card.small-card:hover {
+	background: #FFF;
+	border: 1px solid #dddfe2;
+	font-weight: 600;
+	padding: 10px;	
+}
+
+.card .card-header{
+	padding: 10px 15px;
+	background: #E9EBEE;
+	border-bottom: 1px solid #dddfe2;
+	font-weight: 600;
+}
+.card .card-body{
+	border-bottom: 1px solid #dddfe2;
+	min-height: 120px;
+}
+
+.card .card-footer{
+	padding: 10px 20px;
+}
+
+.card .card-footer {
+	width: 100%;
+	min-height: 20px;
+}
+/* Card Style End */
+
+/* Post Card Styles */
+.card.post {
+	color: #616770;
+}
+.card.post .card-header {
+	background: #FFF;
+}
+
+.card.post .card-header.post-owner .display-pic {
+	display: inline-block;
+	border-radius: 50%;
+	border: 1px solid #dddfe2;
+	background: #E9EBEE;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.card.post .card-header.post-owner .name {
+	color: #385898;
+	cursor: pointer;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.card.post .card-header.post-owner .activity {
+	font-weight: 400;
+}
+
+.card.post .card-body.post-owner .post-content {
+	padding: 20px;
+	font-weight: 500;
+}
+
+.card.post .card-header.post-owner .time-location {
+	padding-left: 45px;
+	font-size: 0.9em;
+	font-weight: 400;
+	margin-top: -5px;
+}
+
+.card .card-footer.post-owner .like-count {
+	font-size: 0.9em;
+}
+
+.card .card-footer.post-owner .like-count .likes {
+	color: #4267b4;
+}
+
+.card .card-footer.post-owner .like-count .comments {
+	margin-right: 50px;
+}
+/* Post Card Style End */
+
+/* Button Style */
+.my-btn {
+	padding: 5px 10px;
+	border: 1px solid #dddfe2;
+	background: #FFF;
+	font-weight: 500;
+}
+
+.my-btn.round {
+	border-radius: 15px;
+}
+
+.my-btn:hover {
+	cursor: pointer;
+	background: #EBEDF0;
+}
+/* Button Style End */
